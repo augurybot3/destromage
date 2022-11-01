@@ -1,0 +1,57 @@
+body{
+	background:#ffffff url("https://res.cloudinary.com/augurybot/image/upload/v1650451839/Grey_Background_Gradient_auywvn.jpg");
+	background-attachment: fixed;
+	background-color:white;
+}
+
+#canvas{
+	background-color:white;
+	display:flex;
+	min-width:300px;
+	min-height:300px;
+	object-fit:fit;
+}
+.div{
+	
+	border-color:darkgoldenrod;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3%;
+	max-width:1000px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	font-size:11px;
+	font-family:sans-serif;
+	
+}
+.buttonDiv{
+	display:flex;
+	border-style:outset;
+	border-color:darkgoldenrod;
+	align-content:center;
+	flex-direction:column;
+	flex-wrap:wrap;
+	background-color:rgb(220,220,220);
+}
+.subButton{
+	border-style:outset;
+	border-color:darkgoldenrod;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	max-width:80px;
+	align-self:center;
+}
+	
+input{
+	
+	background-color:darkgrey;
+	color:white;
+	margin:4px;
+	width:100px;
+	display:flex;
+	text-align: center;
+	font-family:monospace;
+	justify-content:center;
+}
